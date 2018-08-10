@@ -1,0 +1,30 @@
+{
+  "name": "template-package-export-as-tgz",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coconewty/template-package-export-as-tgz.git"
+  },
+  "author": "coconewty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coconewty/template-package-export-as-tgz/issues"
+  },
+  "homepage": "https://github.com/coconewty/template-package-export-as-tgz#readme",
+  "dependencies": {
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
