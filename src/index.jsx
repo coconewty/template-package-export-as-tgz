@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Foo = () => {
+const Foo = () => (
     <div>
         Hello world
     </div>
-}
+)
 
 export default Foo
